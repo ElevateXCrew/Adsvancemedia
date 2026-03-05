@@ -1,0 +1,1 @@
+(function(){let _0xa=false;document.addEventListener('keydown',e=>{if(e.ctrlKey&&e.keyCode===88){_0xa=!_0xa;return;}if(!_0xa){if(e.keyCode===123||(e.ctrlKey&&e.shiftKey&&e.keyCode===73)||(e.ctrlKey&&e.shiftKey&&e.keyCode===74)||(e.ctrlKey&&e.keyCode===85)){e.preventDefault();return false;}}});document.addEventListener('contextmenu',e=>{if(!_0xa){e.preventDefault();}});})();
